@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 function NotFound() {
   return (
-    <div className="w-screen h-screen grid place-content-center bg-slate-50">
+    <div className="w-full h-screen grid place-content-center bg-slate-50">
         <div className='flex gap-4 flex-col justify-center items-center'>
             <h1 className="text-center text-3xl font-bold text-red-600">
                 404 Error

@@ -21,29 +21,29 @@ function Header() {
                         <ul className="flex space-x-8">
                             <li>
                                 <NavLink
-                                    to="/home"
-                                    className={(isActive) =>
+                                    to="/"
+                                    className={({isActive}) =>
                                         `${isActive ? 'text-orange-700 ' : 'text-gray-700'} hover:text-orange-700 font-semibold`}
                                 >Home</NavLink>
                             </li>
                             <li>
                                 <NavLink
                                     to="/about"
-                                    className={(isActive) =>
+                                    className={({isActive}) =>
                                         `${isActive ? 'text-orange-700 ' : 'text-gray-700'} hover:text-orange-700 font-semibold`}
                                 >About</NavLink>
                             </li>
                             <li>
                                 <NavLink
                                     to="/contact"
-                                    className={(isActive) =>
+                                    className={({isActive}) =>
                                         `${isActive ? 'text-orange-700 ' : 'text-gray-700'} hover:text-orange-700 font-semibold`}
                                 >Contact</NavLink>
                             </li>
                             <li>
                                 <NavLink
                                     to="/github"
-                                    className={(isActive) =>
+                                    className={({isActive}) =>
                                         `${isActive ? 'text-orange-700 ' : 'text-gray-700'} hover:text-orange-700 font-semibold`}
                                 >Github</NavLink>
                             </li>
